@@ -1,0 +1,13 @@
+.responsive-image {
+    width: 75%; /* This makes the image take up 50% of the page's width */
+    margin: 20px; /* This adds 20 pixels of space around the image */
+    display: block; /* Ensures the image is treated as a block element, allowing margin auto */
+    margin-left: auto; /* This centers the image horizontally */
+    margin-right: auto; /* This also centers the image horizontally */
+}
+p {
+    font-family: "Trebuchet MS", sans-serif; /* font-family: 'Times New Roman', Times, serif; */
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
