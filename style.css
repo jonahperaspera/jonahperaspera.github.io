@@ -5,9 +5,7 @@
     margin-left: auto; /* This centers the image horizontally */
     margin-right: auto; /* This also centers the image horizontally */
 }
-p {
-    font-family: "Trebuchet MS", sans-serif; /* font-family: 'Times New Roman', Times, serif; */
-}
-h1 {
-    font-family: 'Times New Roman', Times, serif;
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
 }
