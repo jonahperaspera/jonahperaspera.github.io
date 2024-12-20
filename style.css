@@ -1,11 +1,39 @@
+/* CSS for my portfolio website */
+
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    /* font-family: "Trebuchet MS", sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: #858585;
+}
+
+/* TRANSITION */
+
+btn {
+    transition: all 0.3s ease;
+}
+
+
 .responsive-image {
     width: 75%; /* This makes the image take up 50% of the page's width */
     margin: 20px; /* This adds 20 pixels of space around the image */
     display: block; /* Ensures the image is treated as a block element, allowing margin auto */
     margin-left: auto; /* This centers the image horizontally */
     margin-right: auto; /* This also centers the image horizontally */
-}
-
-body {
-    font-family: "Trebuchet MS", sans-serif;
 }
